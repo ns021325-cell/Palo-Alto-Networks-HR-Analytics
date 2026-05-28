@@ -147,7 +147,7 @@ def load_and_process(path):
 
 # Load data
 try:
-    df = load_and_process(r"C:\Users\ns021\OneDrive\Documents\Unified mentor project  2\Palo Alto Networks.csv")
+    df = load_and_process(r"Palo Alto Networks.csv")
 except FileNotFoundError:
     st.error("⚠️ CSV file not found! Make sure 'Palo_Alto_Networks.csv' is in the same folder as app.py")
     st.stop()
